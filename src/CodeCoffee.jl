@@ -7,6 +7,17 @@ module CodeCoffee
             dummy_cross_product,
             dummy_sleep
 
+    """
+        sqrt_of_pi()
+
+    Computes the squareroot of pi.
+
+    # Examples
+    ```jldoctest
+    julia> sqrt_of_pi()
+    1.7724538509055159
+    ```
+    """
     function sqrt_of_pi()
         return √(π)
     end
